@@ -1,0 +1,16 @@
+/* Make the side menu fixed below the navbar */
+.sidemenu {
+  position: fixed;
+  top: 56px; /* Adjust this if your navbar height changes */
+  left: 0;
+  width: 250px; /* Adjust the width of the side menu */
+  height: 100%; /* Full screen height */
+  overflow-y: auto; /* Enable scrolling if the menu overflows */
+  z-index: 100; /* Ensure it stays above other content */
+}
+
+/* Adjust the main content area to leave space for the side menu */
+.main-content {
+  margin-left: 250px; /* Space for the side menu */
+  padding: 20px; /* Add padding as needed */
+}

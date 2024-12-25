@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!-- Side Menu Toggle Button -->
+    <button class="btn btn-primary me-2" type="button" (click)="toggleSideMenu()">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <!-- Search Box -->
+    <form class="d-flex" (submit)="onSearch()">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Tìm kiếm tên người dùng"
+        [(ngModel)]="searchQuery"
+        [ngModelOptions]="{standalone: true}"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+    </form>
+
+    <!-- Notification and Message Icons -->
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <button class="btn btn-link position-relative" type="button" (click)="showNotifications()">
+          <i class="bi bi-bell"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ notificationsCount }}
+          </span>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-link position-relative" type="button" (click)="showMessages()">
+          <i class="bi bi-envelope"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ messagesCount }}
+          </span>
+        </button>
+      </li>
+
+      <!-- Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="accountDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Tài khoản
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+          <li><a class="dropdown-item" href="#" (click)="viewProfile()">Thông tin tài khoản</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item text-danger" href="#" (click)="logout()">Đăng xuất</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Side Menu -->
+<div *ngIf="isSideMenuVisible" class="sidemenu bg-light border-end">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let item of menuItems">
+      <a>{{ item.label }}</a>
+    </li>
+  </ul>
+</div>
+
