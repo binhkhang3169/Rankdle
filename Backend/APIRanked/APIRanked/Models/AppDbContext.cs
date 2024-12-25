@@ -27,9 +27,9 @@ namespace APIRanked.Models
             modelBuilder.Entity<Role>().HasKey(r => r.RoleId);
             modelBuilder.Entity<TypeQuiz>().HasKey(t => t.TypeId);
             modelBuilder.Entity<Daily>().HasKey(d => d.DailyId);
-            modelBuilder.Entity<User>().HasKey(u => u.Id);
+            modelBuilder.Entity<User>().HasKey(u => u.UserId);
             modelBuilder.Entity<Quiz>().HasKey(q => q.QuizId);
-            modelBuilder.Entity<UserAnswer>().HasKey(ua => ua.Id);
+            modelBuilder.Entity<UserAnswer>().HasKey(ua => ua.UserAnswerId);
 
             // Relationships
 

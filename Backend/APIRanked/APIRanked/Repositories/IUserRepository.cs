@@ -10,5 +10,9 @@ namespace APIRanked.Repositories
         void Update(User user);
         Task DeleteAsync(int id);
         Task<bool> SaveChangesAsync();
+
+        Task<User?> GetUserByUsernameAsync(string username);
+        Task<User?> GetUserByEmailAsync(string email);
+        Task<User?> GetUserByResetTokenAsync(string resetToken);
     }
 }

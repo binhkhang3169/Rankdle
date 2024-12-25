@@ -22,7 +22,13 @@ namespace APIRanked.Models
         [Required]
         public string Salt { get; set; } // Dùng cho bảo mật mật khẩu
 
+
         public string? ResetToken { get; set; } // Token cho quên mật khẩu
+
+        [ForeignKey("Role")]
+        public int RoleId { get; set; } // Khóa ngoại đến Role
+
+        public virtual Role? Role { get; set; } // Quan hệ 1:N từ Role -> Users
 
         public DateTime? ResetTokenExpiry { get; set; } // Thời hạn token
         public virtual ICollection<UserAnswer> UserAnswers { get; set; }
