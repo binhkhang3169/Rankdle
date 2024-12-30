@@ -1,16 +1,31 @@
-/* Make the side menu fixed below the navbar */
-.sidemenu {
-  position: fixed;
-  top: 56px; /* Adjust this if your navbar height changes */
-  left: 0;
-  width: 250px; /* Adjust the width of the side menu */
-  height: 100%; /* Full screen height */
-  overflow-y: auto; /* Enable scrolling if the menu overflows */
-  z-index: 100; /* Ensure it stays above other content */
+/* Make the offcanvas menu transition smoothly */
+.offcanvas {
+  transition: transform 0.3s ease-in-out;
+  width: 250px; /* Width of the off-canvas menu */
 }
 
-/* Adjust the main content area to leave space for the side menu */
+.offcanvas-start {
+  transform: translateX(-100%); /* Hidden by default */
+}
+
+.offcanvas.show {
+  transform: translateX(0); /* Visible when toggled */
+}
+
+/* Improve the main content padding */
+body {
+  overflow-x: hidden;
+}
+
 .main-content {
-  margin-left: 250px; /* Space for the side menu */
-  padding: 20px; /* Add padding as needed */
+  padding: 20px;
+}
+
+/* Adjust button styles for a cleaner look */
+.btn {
+  border-radius: 50px;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

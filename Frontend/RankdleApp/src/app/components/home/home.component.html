@@ -1,1 +1,6 @@
-<p>home works!</p>
+<div class="card-container">
+    <div class="card" *ngFor="let card of cards" (click)="navigateTo(card.url)">
+        <img [src]="card.image" [alt]="card.nameType" class="card-image" />
+        <div class="card-title">{{ card.nameType }}</div>
+    </div>
+</div>

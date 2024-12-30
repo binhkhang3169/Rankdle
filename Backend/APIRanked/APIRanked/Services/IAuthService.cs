@@ -15,6 +15,7 @@ namespace APIRanked.Services
 
         // Xác thực Token
         Task<bool> ValidateTokenAsync(string token);
+        Task<string> GetUserByTokenAsync(string token);
 
         // Xóa Token (Logout)
         Task<bool> RevokeTokenAsync(string token);

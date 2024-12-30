@@ -7,10 +7,10 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 
 @Component({
   selector: 'app-login',
-  imports:[FormsModule,CommonModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
-  providers:[JwtHelperService]
+  providers: [JwtHelperService],
 })
 export class LoginComponent implements OnInit {
   username: string = '';
@@ -19,7 +19,11 @@ export class LoginComponent implements OnInit {
 
   constructor(private authService: AuthService, private router: Router) {}
   ngOnInit(): void {
-    this.authService.logout();    
+    if (this.authService.isAuthenticated()) {
+      this.router.navigate(['/home']);
+    } else {
+      this.authService.logout();
+    }
   }
 
   // Handle form submission

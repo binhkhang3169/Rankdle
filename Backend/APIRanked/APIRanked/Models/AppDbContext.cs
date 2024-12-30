@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace APIRanked.Models
 {
@@ -26,12 +27,21 @@ namespace APIRanked.Models
             // Primary keys
             modelBuilder.Entity<Role>().HasKey(r => r.RoleId);
             modelBuilder.Entity<TypeQuiz>().HasKey(t => t.TypeId);
-            modelBuilder.Entity<Daily>().HasKey(d => d.DailyId);
+            modelBuilder.Entity<Daily>().HasKey(d => new { d.TypeId, d.Date });
             modelBuilder.Entity<User>().HasKey(u => u.UserId);
             modelBuilder.Entity<Quiz>().HasKey(q => q.QuizId);
             modelBuilder.Entity<UserAnswer>().HasKey(ua => ua.UserAnswerId);
 
             // Relationships
+            // Ánh xạ DateOnly sang kiểu date trong cơ sở dữ liệu
+            var dateOnlyConverter = new ValueConverter<DateOnly, DateTime>(
+                d => d.ToDateTime(TimeOnly.MinValue),
+                d => DateOnly.FromDateTime(d)
+            );
+
+            modelBuilder.Entity<Daily>()
+                .Property(d => d.Date)
+                .HasConversion(dateOnlyConverter);
 
             // Role -> Users (1:N)
             modelBuilder.Entity<Role>()

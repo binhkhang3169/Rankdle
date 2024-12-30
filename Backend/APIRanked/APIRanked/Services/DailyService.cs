@@ -6,6 +6,7 @@ namespace APIRanked.Services
     public class DailyService : IDailyService
     {
         private readonly IDailyRepository _dailyRepository;
+
         public DailyService(IDailyRepository dailyRepository)
         {
             _dailyRepository = dailyRepository;
@@ -17,9 +18,9 @@ namespace APIRanked.Services
             await _dailyRepository.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(int typeId, DateOnly date)
         {
-            await _dailyRepository.DeleteAsync(id);
+            await _dailyRepository.DeleteAsync(typeId, date);
             await _dailyRepository.SaveChangesAsync();
         }
 
@@ -28,9 +29,9 @@ namespace APIRanked.Services
             return await _dailyRepository.GetAllAsync();
         }
 
-        public async Task<Daily?> GetByIdAsync(int id)
+        public async Task<Daily?> GetByIdAsync(int typeId, DateOnly date)
         {
-            return await _dailyRepository.GetByIdAsync(id);
+            return await _dailyRepository.GetByIdAsync(typeId, date);
         }
 
         public async Task UpdateAsync(Daily daily)

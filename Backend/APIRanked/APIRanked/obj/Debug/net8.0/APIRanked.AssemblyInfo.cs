@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIRanked")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83f10b239477bb8e63436b6f598ed5e9cdd31afa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e693d81d9f904d4b7fbae7a775a470de9a398930")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIRanked")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIRanked")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

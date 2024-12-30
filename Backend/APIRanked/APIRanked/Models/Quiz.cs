@@ -13,10 +13,20 @@ namespace APIRanked.Models
         public string Region { get; set; }
 
         [Required]
+        [StringLength(255)]
+        public string URL { get; set; }
+
+        [Required]
         public string CorrectValue { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; }
+
+        [Required]
+        [ForeignKey("User")]
+        public int UserId {  get; set; }
+        public virtual User User { get; set; }
+
 
         [Required]
         [ForeignKey("TypeQuiz")]

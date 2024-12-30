@@ -1,0 +1,29 @@
+<div class="quiz-container">
+    <h2>Tạo Quiz Mới</h2>
+
+    <label for="region">Region:</label>
+    <input id="region" [(ngModel)]="createQuizDto.Region" placeholder="Nhập region" />
+
+    <label for="url">URL:</label>
+    <input id="url" [(ngModel)]="createQuizDto.Url" placeholder="Nhập URL" />
+
+    <label>Chọn Game:</label>
+    <div class="items-container">
+        <div *ngFor="let item of types" class="item" [class.selected]="item.isSelected" (click)="selectType(item)">
+            {{ item.nameType }}
+        </div>
+    </div>
+
+    <div *ngIf="isSelectedGame">
+    
+        <label>Chọn Rank:</label>
+        <div class="items-container">
+            <div *ngFor="let item of ranks" class="item" [class.selected]="item.isSelected" (click)="selectRank(item)">
+                {{ item.rank }}
+            </div>
+        </div>
+
+    </div>
+
+    <button (click)="submit()">Tạo Quiz</button>
+</div>

@@ -236,17 +236,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Daily"
+                "$ref": "#/components/schemas/DailyDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Daily"
+                "$ref": "#/components/schemas/DailyDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Daily"
+                "$ref": "#/components/schemas/DailyDto"
               }
             }
           }
@@ -258,19 +258,28 @@
         }
       }
     },
-    "/api/Daily/{id}": {
+    "/api/Daily/{typeId}/{date}": {
       "get": {
         "tags": [
           "Daily"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "typeId",
             "in": "path",
             "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
             }
           }
         ],
@@ -303,12 +312,21 @@
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "typeId",
             "in": "path",
             "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
             }
           }
         ],
@@ -343,12 +361,21 @@
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "typeId",
             "in": "path",
             "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
             }
           }
         ],
@@ -404,17 +431,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/CreateQuizDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/CreateQuizDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Quiz"
+                "$ref": "#/components/schemas/CreateQuizDto"
               }
             }
           }
@@ -1030,8 +1057,35 @@
   },
   "components": {
     "schemas": {
+      "CreateQuizDto": {
+        "type": "object",
+        "properties": {
+          "region": {
+            "type": "string",
+            "nullable": true
+          },
+          "correctValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tokenJWT": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Daily": {
         "required": [
+          "date",
           "quiz1",
           "quiz2",
           "quiz3",
@@ -1039,10 +1093,6 @@
         ],
         "type": "object",
         "properties": {
-          "dailyId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "quiz1": {
             "type": "integer",
             "format": "int32"
@@ -1059,8 +1109,38 @@
             "type": "integer",
             "format": "int32"
           },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
           "typeQuiz": {
             "$ref": "#/components/schemas/TypeQuiz"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DailyDto": {
+        "type": "object",
+        "properties": {
+          "quiz1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quiz2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quiz3": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
           }
         },
         "additionalProperties": false
@@ -1094,7 +1174,9 @@
           "correctValue",
           "createdAt",
           "region",
-          "typeId"
+          "typeId",
+          "url",
+          "userId"
         ],
         "type": "object",
         "properties": {
@@ -1107,6 +1189,11 @@
             "minLength": 0,
             "type": "string"
           },
+          "url": {
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string"
+          },
           "correctValue": {
             "minLength": 1,
             "type": "string"
@@ -1114,6 +1201,13 @@
           "createdAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
           },
           "typeId": {
             "type": "integer",
@@ -1280,6 +1374,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/UserAnswer"
+            },
+            "nullable": true
+          },
+          "quizzes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Quiz"
             },
             "nullable": true
           }

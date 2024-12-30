@@ -3,80 +3,20 @@
   "WorkspaceRootPath": "D:\\BinK\\projectcv\\Backend\\APIRanked\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\dailycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\dailycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\itypequizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\itypequizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\dailydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\dailydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\iuseranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\iuseranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\verifytokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\verifytokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\useranswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\useranswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\models\\daily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\models\\daily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,253 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Services\\IAuthService.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IAuthService.cs",
-              "RelativeToolTip": "APIRanked\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T09:02:16.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Services\\UserService.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\UserService.cs",
-              "RelativeToolTip": "APIRanked\\Services\\UserService.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:54:06.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "APIRanked\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:53:16.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Repositories\\IUserRepository.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "APIRanked\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:52:05.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Services\\IUserService.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserService.cs",
-              "RelativeToolTip": "APIRanked\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:51:04.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserAnswerService.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserAnswerService.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Services\\IUserAnswerService.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserAnswerService.cs",
-              "RelativeToolTip": "APIRanked\\Services\\IUserAnswerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:51:03.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResetPasswordDto.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\ResetPasswordDto.cs",
-              "RelativeDocumentMoniker": "APIRanked\\DTO\\ResetPasswordDto.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\ResetPasswordDto.cs",
-              "RelativeToolTip": "APIRanked\\DTO\\ResetPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:48:54.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VerifyTokenDto.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\VerifyTokenDto.cs",
-              "RelativeDocumentMoniker": "APIRanked\\DTO\\VerifyTokenDto.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\VerifyTokenDto.cs",
-              "RelativeToolTip": "APIRanked\\DTO\\VerifyTokenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:48:31.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ForgotPasswordDto.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\ForgotPasswordDto.cs",
-              "RelativeDocumentMoniker": "APIRanked\\DTO\\ForgotPasswordDto.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\ForgotPasswordDto.cs",
-              "RelativeToolTip": "APIRanked\\DTO\\ForgotPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:47:55.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\LoginDto.cs",
-              "RelativeDocumentMoniker": "APIRanked\\DTO\\LoginDto.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\LoginDto.cs",
-              "RelativeToolTip": "APIRanked\\DTO\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:47:13.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "APIRanked\\DTO\\RegisterDto.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\RegisterDto.cs",
-              "RelativeToolTip": "APIRanked\\DTO\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:46:42.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Services\\AuthService.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\AuthService.cs",
-              "RelativeToolTip": "APIRanked\\Services\\AuthService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwEkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:43:36.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Program.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Program.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Program.cs",
-              "RelativeToolTip": "APIRanked\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Title": "DailyDto.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\DailyDto.cs",
+              "RelativeDocumentMoniker": "APIRanked\\DTO\\DailyDto.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\DailyDto.cs",
+              "RelativeToolTip": "APIRanked\\DTO\\DailyDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:42:32.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\appsettings.json",
-              "RelativeDocumentMoniker": "APIRanked\\appsettings.json",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\appsettings.json",
-              "RelativeToolTip": "APIRanked\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T08:34:45.283Z",
+              "WhenOpened": "2024-12-29T17:39:34.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "APIRanked\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAswJ0AAAAAAAAAAAAAAA==",
+              "Title": "ITypeQuizService.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\ITypeQuizService.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Services\\ITypeQuizService.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\ITypeQuizService.cs",
+              "RelativeToolTip": "APIRanked\\Services\\ITypeQuizService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:49:40.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserAnswerController.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\UserAnswerController.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Controllers\\UserAnswerController.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\UserAnswerController.cs",
-              "RelativeToolTip": "APIRanked\\Controllers\\UserAnswerController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:43:23.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Models\\Role.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\Role.cs",
-              "RelativeToolTip": "APIRanked\\Models\\Role.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAhwA8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:41:41.984Z",
+              "WhenOpened": "2024-12-29T17:39:00.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\User.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Models\\User.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\User.cs",
-              "RelativeToolTip": "APIRanked\\Models\\User.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwBsAAAAcAAAAAAAAAA==",
+              "Title": "DailyController.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\DailyController.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Controllers\\DailyController.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\DailyController.cs",
+              "RelativeToolTip": "APIRanked\\Controllers\\DailyController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:40:49.589Z",
+              "WhenOpened": "2024-12-29T17:28:41.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "APIRanked\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "APIRanked\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACUAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Daily.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\Daily.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Models\\Daily.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\Daily.cs",
+              "RelativeToolTip": "APIRanked\\Models\\Daily.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:40:36.835Z",
+              "WhenOpened": "2024-12-29T17:28:27.748Z",
               "EditorCaption": ""
             }
           ]

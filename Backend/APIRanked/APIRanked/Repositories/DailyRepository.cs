@@ -17,9 +17,10 @@ namespace APIRanked.Repositories
             return await _context.Dailies.ToListAsync();
         }
 
-        public async Task<Daily?> GetByIdAsync(int id)
+        public async Task<Daily?> GetByIdAsync(int typeId, DateOnly date)
         {
-            return await _context.Dailies.FindAsync(id);
+            return await _context.Dailies
+                .FirstOrDefaultAsync(d => d.TypeId == typeId && d.Date == date);
         }
 
         public async Task AddAsync(Daily daily)
@@ -32,9 +33,9 @@ namespace APIRanked.Repositories
             _context.Dailies.Update(daily);
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(int typeId, DateOnly date)
         {
-            var daily = await GetByIdAsync(id);
+            var daily = await GetByIdAsync(typeId, date);
             if (daily != null)
             {
                 _context.Dailies.Remove(daily);

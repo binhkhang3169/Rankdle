@@ -4,11 +4,12 @@ import { MenusComponent } from './components/menus/menus.component';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
+import { TestComponent } from './components/test/test.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,MenusComponent,LoginComponent],
+  imports: [RouterOutlet,MenusComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -70,5 +70,15 @@ namespace APIRanked.Services
             await _cache.RemoveAsync(token);
             return true;
         }
+
+        public async Task<string> GetUserByTokenAsync(string token)
+        {
+            var userId = await _cache.GetStringAsync(token);
+            if (userId == null)
+            {
+                return "";
+            }
+            return userId;
+        }
     }
 }

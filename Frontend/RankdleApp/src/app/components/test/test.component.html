@@ -1,0 +1,14 @@
+<div class="test-container">
+    <button (click)="testGetDailyWithQuizDetails()">Test Get Daily With Quiz Details</button>
+  
+    <div *ngIf="responseData">
+      <h3>Daily With Quiz Details:</h3>
+      <pre>{{ responseData | json }}</pre>
+    </div>
+  
+    <div *ngIf="errorMessage">
+      <h3>Error:</h3>
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+  

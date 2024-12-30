@@ -67,7 +67,7 @@ namespace APIRanked.Controllers
             return Ok(new { token });
         }
 
-        // Logout
+        
         [HttpPost("logout")]
         public async Task<IActionResult> Logout([FromBody] string token)
         {

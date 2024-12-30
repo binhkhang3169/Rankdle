@@ -1,0 +1,84 @@
+{
+    "games": [
+        {
+            "name": "League of Legend",
+            "shortName": "lol",
+            "ranks": [
+                {
+                    "rank": "Iron",
+                    "iconUrl": "icons/lol/iron.png"
+                },
+                {
+                    "rank": "Bronze",
+                    "iconUrl": "icons/lol/bronze.png"
+                },
+                {
+                    "rank": "Silver",
+                    "iconUrl": "icons/lol/silver.png"
+                },
+                {
+                    "rank": "Gold",
+                    "iconUrl": "icons/lol/gold.png"
+                },
+                {
+                    "rank": "Platinum",
+                    "iconUrl": "icons/lol/platinum.png"
+                },
+                {
+                    "rank": "Diamond",
+                    "iconUrl": "icons/lol/diamond.png"
+                },
+                {
+                    "rank": "Master",
+                    "iconUrl": "icons/lol/master.png"
+                },
+                {
+                    "rank": "Grandmaster",
+                    "iconUrl": "icons/lol/grandmaster.png"
+                },
+                {
+                    "rank": "Challenger",
+                    "iconUrl": "icons/lol/challenger.png"
+                }
+            ]
+        },
+        {
+            "name": "Valorant",
+            "shortName": "val",
+            "ranks": [
+                {
+                    "rank": "Iron",
+                    "iconUrl": "icons/val/iron.png"
+                },
+                {
+                    "rank": "Bronze",
+                    "iconUrl": "icons/val/bronze.png"
+                },
+                {
+                    "rank": "Silver",
+                    "iconUrl": "icons/val/silver.png"
+                },
+                {
+                    "rank": "Gold",
+                    "iconUrl": "icons/val/gold.png"
+                },
+                {
+                    "rank": "Platinum",
+                    "iconUrl": "icons/val/platinum.png"
+                },
+                {
+                    "rank": "Diamond",
+                    "iconUrl": "icons/val/diamond.png"
+                },
+                {
+                    "rank": "Immortal",
+                    "iconUrl": "icons/val/immortal.png"
+                },
+                {
+                    "rank": "Radiant",
+                    "iconUrl": "icons/val/radiant.png"
+                }
+            ]
+        }
+    ]
+}

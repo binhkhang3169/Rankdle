@@ -24,11 +24,11 @@ namespace APIRanked.Migrations
 
             modelBuilder.Entity("APIRanked.Models.Daily", b =>
                 {
-                    b.Property<int>("DailyId")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("TypeId")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DailyId"));
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("Quiz1")
                         .HasColumnType("int");
@@ -39,12 +39,7 @@ namespace APIRanked.Migrations
                     b.Property<int>("Quiz3")
                         .HasColumnType("int");
 
-                    b.Property<int>("TypeId")
-                        .HasColumnType("int");
-
-                    b.HasKey("DailyId");
-
-                    b.HasIndex("TypeId");
+                    b.HasKey("TypeId", "Date");
 
                     b.ToTable("Dailies", (string)null);
                 });
@@ -72,9 +67,19 @@ namespace APIRanked.Migrations
                     b.Property<int>("TypeId")
                         .HasColumnType("int");
 
+                    b.Property<string>("URL")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("QuizId");
 
                     b.HasIndex("TypeId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Quizzes", (string)null);
                 });
@@ -217,7 +222,15 @@ namespace APIRanked.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("APIRanked.Models.User", "User")
+                        .WithMany("Quizzes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("TypeQuiz");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("APIRanked.Models.User", b =>
@@ -269,6 +282,8 @@ namespace APIRanked.Migrations
 
             modelBuilder.Entity("APIRanked.Models.User", b =>
                 {
+                    b.Navigation("Quizzes");
+
                     b.Navigation("UserAnswers");
                 });
 #pragma warning restore 612, 618

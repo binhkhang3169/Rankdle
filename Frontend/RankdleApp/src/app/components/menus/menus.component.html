@@ -6,22 +6,22 @@
     </button>
 
     <!-- Search Box -->
-    <form class="d-flex" (submit)="onSearch()">
+    <form class="d-flex flex-grow-1 mx-3" (submit)="onSearch()">
       <input
         class="form-control me-2"
         type="search"
         placeholder="Tìm kiếm tên người dùng"
         [(ngModel)]="searchQuery"
-        [ngModelOptions]="{standalone: true}"
+        [ngModelOptions]="{ standalone: true }"
         aria-label="Search"
       />
       <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
     </form>
 
-    <!-- Notification and Message Icons -->
+    <!-- Notification and Account -->
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <button class="btn btn-link position-relative" type="button" (click)="showNotifications()">
+        <button class="btn btn-link position-relative me-3" type="button" (click)="showNotifications()">
           <i class="bi bi-bell"></i>
           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             {{ notificationsCount }}
@@ -29,15 +29,13 @@
         </button>
       </li>
       <li class="nav-item">
-        <button class="btn btn-link position-relative" type="button" (click)="showMessages()">
+        <button class="btn btn-link position-relative me-3" type="button" (click)="showMessages()">
           <i class="bi bi-envelope"></i>
           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             {{ messagesCount }}
           </span>
         </button>
       </li>
-
-      <!-- Dropdown Menu -->
       <li class="nav-item dropdown">
         <a
           class="nav-link dropdown-toggle"
@@ -59,13 +57,22 @@
   </div>
 </nav>
 
-
-<!-- Side Menu -->
-<div *ngIf="isSideMenuVisible" class="sidemenu bg-light border-end">
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item" *ngFor="let item of menuItems">
-      <a>{{ item.label }}</a>
-    </li>
-  </ul>
+<!-- Side Menu (Off-Canvas) -->
+<div
+  class="offcanvas offcanvas-start"
+  [ngClass]="{ 'show': isSideMenuVisible }"
+  tabindex="-1"
+  style="z-index: 1050"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Menu</h5>
+    <button type="button" class="btn-close" (click)="toggleSideMenu()"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" *ngFor="let item of menuItems">
+        <a href="{{ item.link }}" class="text-decoration-none">{{ item.label }}</a>
+      </li>
+    </ul>
+  </div>
 </div>
-

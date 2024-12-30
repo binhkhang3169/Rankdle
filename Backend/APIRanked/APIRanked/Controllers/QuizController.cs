@@ -1,7 +1,9 @@
-﻿using APIRanked.Models;
+﻿using APIRanked.DTO;
+using APIRanked.Models;
 using APIRanked.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Quic;
 
 namespace APIRanked.Controllers
 {
@@ -10,10 +12,12 @@ namespace APIRanked.Controllers
     public class QuizController : ControllerBase
     {
         private readonly IQuizService _quizService;
+        private readonly IAuthService _authService;
 
-        public QuizController(IQuizService quizService)
+        public QuizController(IQuizService quizService, IAuthService authService)
         {
             _quizService = quizService;
+            _authService = authService;
         }
 
         // GET: api/quiz
@@ -38,12 +42,26 @@ namespace APIRanked.Controllers
 
         // POST: api/quiz
         [HttpPost]
-        public async Task<ActionResult> AddQuiz([FromBody] Quiz quiz)
+        public async Task<ActionResult> AddQuiz([FromBody] CreateQuizDto quizDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+            Quiz quiz = new Quiz();
+
+            quiz.Region = quizDto.Region;
+            var userId = await _authService.GetUserByTokenAsync(quizDto.TokenJWT);
+            if (userId == null)
+            {
+                return BadRequest(userId);
+            }
+
+            quiz.UserId = Int32.Parse(userId);
+            quiz.CreatedAt = DateTime.Now;
+            quiz.CorrectValue = quizDto.CorrectValue;
+            quiz.TypeId = quizDto.TypeId;
+            quiz.URL = quizDto.Url;
 
             await _quizService.AddAsync(quiz);
             return CreatedAtAction(nameof(GetQuizById), new { id = quiz.QuizId }, quiz);

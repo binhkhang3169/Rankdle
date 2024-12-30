@@ -32,9 +32,10 @@ namespace APIRanked.Models
 
         public DateTime? ResetTokenExpiry { get; set; } // Thời hạn token
         public virtual ICollection<UserAnswer> UserAnswers { get; set; }
-
+        public virtual ICollection<Quiz> Quizzes { get; set; }
         public User()
         {
+            Quizzes = new List<Quiz>();
             UserAnswers = new List<UserAnswer>();
         }
     }

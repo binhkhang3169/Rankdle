@@ -5,9 +5,6 @@ namespace APIRanked.Models
 {
     public class Daily
     {
-        [Key]
-        public int DailyId { get; set; }
-
         [Required]
         public int Quiz1 { get; set; }
 
@@ -20,6 +17,9 @@ namespace APIRanked.Models
         [Required]
         [ForeignKey("TypeQuiz")]
         public int TypeId { get; set; }
+
+        [Required]
+        public DateOnly Date { get; set; } // Sử dụng DateOnly thay vì DateTime
 
         public virtual TypeQuiz TypeQuiz { get; set; }
     }
