@@ -30,6 +30,11 @@ namespace APIRanked.Repositories
             return await _context.UserAnswers.ToListAsync();
         }
 
+        public async Task<IEnumerable<UserAnswer>> GetAllByQuizIdAsync(int id)
+        {
+            return await _context.UserAnswers.Where(u => u.QuizId == id).ToListAsync();
+        }
+
         public async Task<UserAnswer?> GetByIdAsync(int id)
         {
             return await _context.UserAnswers.FindAsync(id);

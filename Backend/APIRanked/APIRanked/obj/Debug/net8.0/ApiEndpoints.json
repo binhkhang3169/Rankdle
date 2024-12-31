@@ -515,8 +515,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userAnswer",
-        "Type": "APIRanked.Models.UserAnswer",
+        "Name": "userAnswerDto",
+        "Type": "APIRanked.DTO.UserAnswerDto",
         "IsRequired": true
       }
     ],

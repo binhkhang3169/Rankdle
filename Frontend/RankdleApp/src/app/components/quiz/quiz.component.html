@@ -1,102 +1,67 @@
 <div class="container">
-    <!-- Star Rating -->
-    <div class="star-rating">
-      <div
-        *ngFor="let star of stars; let i = index"
-        class="star"
-        [ngClass]="{ filled: star <= point }"
-      >
-        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path
-            [attr.fill]="star <= point ? 'yellow' : 'gray'"
-            d="M12 .587l3.668 7.431L23.2 9.24l-5.168 5.022L19.084 21 12 17.77 4.916 21l1.052-6.738L.8 9.24l7.532-1.222L12 .587z"
-          ></path>
-        </svg>
-      </div>
+  <!-- Star Rating -->
+  <div class="star-rating">
+    <div *ngFor="let star of stars; let i = index" class="star" [ngClass]="{ filled: star <= point }">
+      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path [attr.fill]="star <= point ? 'yellow' : 'gray'"
+          d="M12 .587l3.668 7.431L23.2 9.24l-5.168 5.022L19.084 21 12 17.77 4.916 21l1.052-6.738L.8 9.24l7.532-1.222L12 .587z">
+        </path>
+      </svg>
     </div>
-  
-    <br />
-  
-    <!-- Video Container -->
-    <div class="video-container">
-      <iframe
-        width="560"
-        height="315"
-        [src]="sanitizedVideoUrl"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <!-- Progress Bar -->
-    <div class="clip-progress-wrapper">
-      <div class="clip-progress-bar">
-        <div class="clip-bars-wrapper">
-          <div
-            *ngFor="let clip of clips"
-            class="clip-bar"
-            [ngClass]="{
+  </div>
+
+  <br />
+  <p>{{currentClipIndex}}</p>
+  <!-- Video Container -->
+  <div class="video-container">
+    <iframe width="560" height="315" [src]="sanitizedVideoUrl" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!-- Clip Progress -->
+  <div class="clip-progress-wrapper">
+    <div class="clip-progress-bar">
+      <div class="clip-bars-wrapper">
+        <div *ngFor="let clip of clips" class="clip-bar" [ngClass]="{
               'current-clip': clip.isCurrent,
               participated: clip.isParticipated,
               'last-clip': clip.isLast
-            }"
-          >
-            <div class="bar-item-wrapper">
-              <svg
-                *ngIf="clip.isLocked"
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 448 512"
-                class="bar-index lock"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"
-                ></path>
-              </svg>
-              <svg
-                *ngIf="!clip.isLocked"
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 16 16"
-                class="clip-bar-icon"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"
-                ></path>
-              </svg>
-              <div class="bar-index">{{ clip.index }}</div>
-              <div class="bar-name">{{ clip.name }}</div>
-            </div>
+            }">
+          <div class="bar-item-wrapper">
+            <svg *ngIf="clip.isLocked" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+              class="bar-index lock" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z">
+              </path>
+            </svg>
+            <svg *ngIf="!clip.isLocked" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+              class="clip-bar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z">
+              </path>
+            </svg>
+            <div class="bar-name">{{ clip.name }}</div>
           </div>
         </div>
       </div>
     </div>
-  
-    <!-- Items Container -->
-    <div class="items-container">
-      <div
-        *ngFor="let item of items"
-        class="item"
-        [class.selected]="item.isSelected"
-        (click)="selectItem(item)"
-      >
-        <img [src]="item.iconUrl" alt="{{ item.label }}" class="item-icon" />
-        <div class="item-label" *ngIf="item.isSelected">{{ item.label }}</div>
-      </div>
-    </div>
-  
-    <div>
-      <p>Region: {{ region }}</p>
-    </div>
-    <button (click)="onClick()">Submit</button>
   </div>
-  
+
+  <!-- Items Container -->
+  <div class="items-container">
+    <div *ngFor="let item of items" class="item" [class.selected]="item.isSelected" (click)="selectItem(item)">
+      <img [src]="item.iconUrl" alt="{{ item.label }}" class="item-icon" />
+      <div class="item-label" *ngIf="item.isSelected">{{ item.label }}</div>
+    </div>
+  </div>
+
+  <div>
+    <p>Region: {{ region }}</p>
+  </div>
+
+  <!-- Submit or View Stats -->
+  <button *ngIf="!isClipCompleted(currentClipIndex)" (click)="onClick()">Submit</button>
+  <button *ngIf="isClipCompleted(currentClipIndex)" (click)="navigateClip('prev')">Prev</button>
+  <button *ngIf="isClipCompleted(currentClipIndex)" (click)="navigateClip('next')">Next</button>
+</div>

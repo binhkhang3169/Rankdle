@@ -11,15 +11,14 @@ namespace APIRanked.Models
         [Required]
         public string Answer { get; set; }
 
-        [Required]
         [ForeignKey("User")]
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
 
         [Required]
         [ForeignKey("Quiz")]
         public int QuizId { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual User? User { get; set; }
         public virtual Quiz Quiz { get; set; }
     }
 

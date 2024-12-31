@@ -1,0 +1,6 @@
+<h2>Answer Statistics</h2>
+
+<p>The correct anwser: {{data.answer}}</p>
+<div class="chart-container">
+    <canvas #answerChart></canvas> <!-- Sử dụng ViewChild để truy xuất phần tử -->
+</div><button mat-button color="primary" (click)="dialogRef.close()">Close</button>

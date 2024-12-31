@@ -35,12 +35,6 @@ export class QuizService {
     return this.http.get(url);
   }
 
-  /**
-   * Lấy thông tin Daily và chi tiết từng Quiz
-   * @param typeId ID của loại quiz
-   * @param date Ngày cần lấy dữ liệu
-   * @returns Observable chứa thông tin Daily và các quiz chi tiết
-   */
   getDailyWithQuizDetails(typeId: number, date: string): Observable<DailyWithQuizzes> {
     return this.getDaily(typeId, date).pipe(
       switchMap((daily: Daily) => {

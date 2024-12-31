@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\useranswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\useranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\useranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\typequizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\typequizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\iuseranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\services\\iuseranswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\repositories\\iuseranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\repositories\\iuseranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\repositories\\useranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\repositories\\useranswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\dto\\useranswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\dto\\useranswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\migrations\\20241230163938_update_useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\migrations\\20241230163938_update_useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\models\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\models\\useranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\typequizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\typequizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\dailycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\dailycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|solutionrelative:apiranked\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{761A5C0D-BA10-4FD4-A4C6-6CA46C028D7E}|APIRanked\\APIRanked.csproj|d:\\bink\\projectcv\\backend\\apiranked\\apiranked\\services\\itypequizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +74,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAnswerService.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\UserAnswerService.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Services\\UserAnswerService.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\UserAnswerService.cs",
+              "RelativeToolTip": "APIRanked\\Services\\UserAnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:02:35.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TypeQuizService.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\TypeQuizService.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Services\\TypeQuizService.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\TypeQuizService.cs",
+              "RelativeToolTip": "APIRanked\\Services\\TypeQuizService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:02:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserAnswerService.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserAnswerService.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Services\\IUserAnswerService.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\IUserAnswerService.cs",
+              "RelativeToolTip": "APIRanked\\Services\\IUserAnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:02:27.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAnswerRepository.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\UserAnswerRepository.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Repositories\\UserAnswerRepository.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\UserAnswerRepository.cs",
+              "RelativeToolTip": "APIRanked\\Repositories\\UserAnswerRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:01:09.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserAnswerRepository.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\IUserAnswerRepository.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Repositories\\IUserAnswerRepository.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Repositories\\IUserAnswerRepository.cs",
+              "RelativeToolTip": "APIRanked\\Repositories\\IUserAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:00:26.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241230163938_Update_useranswer.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Migrations\\20241230163938_Update_useranswer.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Migrations\\20241230163938_Update_useranswer.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Migrations\\20241230163938_Update_useranswer.cs",
+              "RelativeToolTip": "APIRanked\\Migrations\\20241230163938_Update_useranswer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:40:29.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TypeQuizController.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\TypeQuizController.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Controllers\\TypeQuizController.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\TypeQuizController.cs",
+              "RelativeToolTip": "APIRanked\\Controllers\\TypeQuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:20:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "APIRanked\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:20:36.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserAnswer.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\UserAnswer.cs",
+              "RelativeDocumentMoniker": "APIRanked\\Models\\UserAnswer.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\UserAnswer.cs",
+              "RelativeToolTip": "APIRanked\\Models\\UserAnswer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:53:57.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserAnswerDto.cs",
+              "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\UserAnswerDto.cs",
+              "RelativeDocumentMoniker": "APIRanked\\DTO\\UserAnswerDto.cs",
+              "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\UserAnswerDto.cs",
+              "RelativeToolTip": "APIRanked\\DTO\\UserAnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:53:53.933Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,14 +210,14 @@
               "RelativeDocumentMoniker": "APIRanked\\Controllers\\UserAnswerController.cs",
               "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\UserAnswerController.cs",
               "RelativeToolTip": "APIRanked\\Controllers\\UserAnswerController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACgAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCcAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T08:47:06.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "QuizController.cs",
               "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "APIRanked\\Controllers\\QuizController.cs",
@@ -59,12 +225,11 @@
               "RelativeToolTip": "APIRanked\\Controllers\\QuizController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T08:31:40.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T08:31:40.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "DailyDto.cs",
               "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\DTO\\DailyDto.cs",
               "RelativeDocumentMoniker": "APIRanked\\DTO\\DailyDto.cs",
@@ -72,12 +237,11 @@
               "RelativeToolTip": "APIRanked\\DTO\\DailyDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:39:34.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:39:34.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ITypeQuizService.cs",
               "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Services\\ITypeQuizService.cs",
               "RelativeDocumentMoniker": "APIRanked\\Services\\ITypeQuizService.cs",
@@ -85,25 +249,23 @@
               "RelativeToolTip": "APIRanked\\Services\\ITypeQuizService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:39:00.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:39:00.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "DailyController.cs",
               "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\DailyController.cs",
               "RelativeDocumentMoniker": "APIRanked\\Controllers\\DailyController.cs",
               "ToolTip": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Controllers\\DailyController.cs",
               "RelativeToolTip": "APIRanked\\Controllers\\DailyController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:28:41.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:28:41.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Daily.cs",
               "DocumentMoniker": "D:\\BinK\\projectcv\\Backend\\APIRanked\\APIRanked\\Models\\Daily.cs",
               "RelativeDocumentMoniker": "APIRanked\\Models\\Daily.cs",
@@ -111,8 +273,7 @@
               "RelativeToolTip": "APIRanked\\Models\\Daily.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:28:27.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:28:27.748Z"
             }
           ]
         }

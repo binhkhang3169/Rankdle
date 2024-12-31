@@ -892,17 +892,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
+                "$ref": "#/components/schemas/UserAnswerDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
+                "$ref": "#/components/schemas/UserAnswerDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
+                "$ref": "#/components/schemas/UserAnswerDto"
               }
             }
           }
@@ -1390,8 +1390,7 @@
       "UserAnswer": {
         "required": [
           "answer",
-          "quizId",
-          "userId"
+          "quizId"
         ],
         "type": "object",
         "properties": {
@@ -1405,7 +1404,8 @@
           },
           "userId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "quizId": {
             "type": "integer",
@@ -1416,6 +1416,24 @@
           },
           "quiz": {
             "$ref": "#/components/schemas/Quiz"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserAnswerDto": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "nullable": true
+          },
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "quizId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

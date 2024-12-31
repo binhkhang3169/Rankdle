@@ -4,6 +4,7 @@ import { routes } from './app.routes';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideHttpClient } from '@angular/common/http';
 import { JWT_OPTIONS, JwtHelperService } from '@auth0/angular-jwt';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }),
@@ -11,6 +12,6 @@ export const appConfig: ApplicationConfig = {
      provideClientHydration(withEventReplay()),
      provideHttpClient(),
      { provide: JWT_OPTIONS, useValue: { tokenGetter: () => localStorage.getItem('token') } },
-    JwtHelperService
+    JwtHelperService, provideAnimationsAsync()
     ]
 };

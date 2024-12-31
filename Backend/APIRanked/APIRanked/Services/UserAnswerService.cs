@@ -1,5 +1,6 @@
 ﻿using APIRanked.Models;
 using APIRanked.Repositories;
+using Microsoft.OpenApi.Writers;
 
 namespace APIRanked.Services
 {
@@ -16,7 +17,11 @@ namespace APIRanked.Services
             await _userAnswerRepository.AddAsync(userAnswer);
             await _userAnswerRepository.SaveChangesAsync();
         }
-
+        public async Task<IEnumerable<UserAnswer>> GetAllByQuizIdAsync(int id)
+        {
+            return await _userAnswerRepository.GetAllByQuizIdAsync(id);
+        }
+        
         public async Task DeleteAsync(int id)
         {
             await _userAnswerRepository.DeleteAsync(id);

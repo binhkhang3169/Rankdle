@@ -1,4 +1,5 @@
-﻿using APIRanked.Models;
+﻿using APIRanked.DTO;
+using APIRanked.Models;
 using APIRanked.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +11,12 @@ namespace APIRanked.Controllers
     public class UserAnswerController : ControllerBase
     {
         private readonly IUserAnswerService _userAnswerService;
+        private readonly IAuthService _authService;
 
-        public UserAnswerController(IUserAnswerService userAnswerService)
+        public UserAnswerController(IUserAnswerService userAnswerService, IAuthService authService)
         {
             _userAnswerService = userAnswerService;
+            _authService = authService;
         }
 
         // GET: api/useranswer
@@ -28,21 +31,32 @@ namespace APIRanked.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<UserAnswer>> GetUserAnswerById(int id)
         {
-            var userAnswer = await _userAnswerService.GetByIdAsync(id);
-            if (userAnswer == null)
-            {
-                return NotFound(new { message = $"UserAnswer with ID {id} not found." });
-            }
-            return Ok(userAnswer);
+            var userAnswers = await _userAnswerService.GetAllByQuizIdAsync(id);
+            return Ok(userAnswers);
         }
 
         // POST: api/useranswer
         [HttpPost]
-        public async Task<ActionResult> AddUserAnswer([FromBody] UserAnswer userAnswer)
+        public async Task<ActionResult> AddUserAnswer([FromBody] UserAnswerDto userAnswerDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
+            }
+
+            var userAnswer = new UserAnswer
+            {
+                Answer = userAnswerDto.Answer,
+                QuizId = userAnswerDto.QuizId
+            };
+            if (userAnswerDto.Token != null)
+            {
+
+                var userId = await _authService.GetUserByTokenAsync(userAnswerDto.Token);
+                if (userId != null)
+                {
+                    userAnswer.UserId = Int32.Parse(userId);
+                }
             }
 
             await _userAnswerService.AddAsync(userAnswer);
